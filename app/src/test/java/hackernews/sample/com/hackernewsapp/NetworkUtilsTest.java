@@ -15,8 +15,8 @@ public class NetworkUtilsTest {
     public void checkUtils_NetworkUtils(){
 
         try {
-            boolean json=  NetworkUtils.isConnected(null);
-            assertEquals(json,false);
+            boolean value=  NetworkUtils.isConnected(null);
+            assertEquals(value,false);
         } catch (Exception e) {
             new Fail(e);
         }
@@ -27,8 +27,8 @@ public class NetworkUtilsTest {
     public void checkUtils_NetworkUtils2(){
 
         try {
-            boolean json=  NetworkUtils.isConnected((Context) new Object());
-            assertEquals(json,null);
+            boolean value=  NetworkUtils.isConnected((Context) new Object());
+            assertEquals(value,null);
         } catch (Exception e) {
             new Fail(e);
         }

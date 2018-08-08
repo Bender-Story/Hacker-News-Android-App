@@ -8,13 +8,15 @@ import org.junit.internal.runners.statements.Fail;
 import hackernews.sample.com.rahul.Utils.UiUtils;
 import hackernews.sample.com.rahul.Utils.Utils;
 
+import static org.junit.Assert.assertEquals;
+
 public class UtilsTest {
     @Test
     public void checkUtils_Utils(){
 
         try {
-            Utils.isTestMode(null);
-
+           boolean value= Utils.isTestMode(null);
+            assertEquals(value,false);
         } catch (Exception e) {
             new Fail(e);
         }
@@ -25,8 +27,8 @@ public class UtilsTest {
     public void checkUtils_Utils2(){
 
         try {
-            Utils.isTestMode((Activity) new Object());
-
+            boolean value= Utils.isTestMode((Activity) new Object());
+            assertEquals(value,false);
         } catch (Exception e) {
             new Fail(e);
         }
