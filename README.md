@@ -7,7 +7,7 @@ The classes under Home package are related to this screen.
 The second screen Shows a detailed title and text of a story along with the comments.
 The classes under story package are related to this screen.
 
-I have also created a UI Test using Espresso. Class name is AppUiTest.
+This code consists of UI Test using Espresso(AppUITest class) & basic Junit testing for Utils package classes.
 
 I have used multiple libraries.
 ```
