@@ -5,11 +5,11 @@ import android.app.Activity;
 import org.junit.Test;
 import org.junit.internal.runners.statements.Fail;
 
-import hackernews.sample.com.rahul.Utils.NetworkUtils;
+
 import hackernews.sample.com.rahul.Utils.UiUtils;
 
-import static org.junit.Assert.assertEquals;
 
+// Junit Test class for UiUtils class
 public class UiUtilsTest {
 
     @Test

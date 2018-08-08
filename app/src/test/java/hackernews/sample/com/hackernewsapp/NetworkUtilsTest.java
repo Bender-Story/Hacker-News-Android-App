@@ -5,11 +5,11 @@ import android.content.Context;
 import org.junit.Test;
 import org.junit.internal.runners.statements.Fail;
 
-import hackernews.sample.com.rahul.Utils.FileUtils;
+
 import hackernews.sample.com.rahul.Utils.NetworkUtils;
 
 import static org.junit.Assert.assertEquals;
-
+// Junit Test class for NetworkUtils class
 public class NetworkUtilsTest {
     @Test
     public void checkUtils_NetworkUtils(){

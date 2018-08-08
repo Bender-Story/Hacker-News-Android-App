@@ -5,11 +5,10 @@ import android.app.Activity;
 import org.junit.Test;
 import org.junit.internal.runners.statements.Fail;
 
-import hackernews.sample.com.rahul.Utils.UiUtils;
 import hackernews.sample.com.rahul.Utils.Utils;
 
 import static org.junit.Assert.assertEquals;
-
+// Junit Test class for Utils class
 public class UtilsTest {
     @Test
     public void checkUtils_Utils(){
