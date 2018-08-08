@@ -47,7 +47,7 @@ public class HomeScreenActivity extends AppCompatActivity implements HomeView {
     }
 
     private void checkIFTestRun(){
-//        if(Utils.isTestMode(getApplicationContext()))
+        if(Utils.isTestMode(getApplicationContext()))
             ApiClient.callService=false;
     }
 
